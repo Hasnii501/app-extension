@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "chatbot-test-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/chatbotTest/ChatbotTestApplicationCustomizer.js",
+          "manifest": "./src/extensions/chatbotTest/ChatbotTestApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ChatbotTestApplicationCustomizerStrings": "lib/extensions/chatbotTest/loc/{locale}.js"
+  }
+}
